@@ -8,7 +8,6 @@ Sort my_list in ascending order.
 Find and print the index of the value 30 in my_list.
 '''
 my_list = []
-# Week_2_Assignmemt.py
 my_list.append(10)
 my_list.append(20)
 my_list.append(30)
