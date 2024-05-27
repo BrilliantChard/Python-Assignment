@@ -8,14 +8,14 @@ Sort my_list in ascending order.
 Find and print the index of the value 30 in my_list.
 '''
 my_list = []
+# Week_2_Assignmemt.py
 my_list.append(10)
 my_list.append(20)
 my_list.append(30)
 my_list.append(40)
-my_list[1] = 15
+my_list.insert(1, 15)
 another_list = [50, 60, 70]
 my_list.extend(another_list)
-print(my_list)
 my_list.pop()
 my_list.sort()
 print(f"The index of value 30 is: {my_list.index(30)}")
